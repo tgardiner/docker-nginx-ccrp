@@ -27,3 +27,7 @@ docker build -t nginx-ccrp .
 ```bash
 docker run -dit --name nginx-ccrp -p 8080:80 nginx-ccrp
 ```
+
+## Test
+
+Requests to http://localhost:8080/ should return your configured API.
